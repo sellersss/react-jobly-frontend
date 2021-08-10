@@ -1,0 +1,62 @@
+.Login {
+    height: fit-content;
+    width: 300px;
+    background-color: lightblue;
+    border-color: darkblue;
+    border-style: solid;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10%;
+    padding: 5px;
+}
+
+.Login-header {
+    margin-top: 0;
+}
+
+.Login-button {
+    display: block;
+    width: 100%;
+    margin: auto;
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    text-decoration: none;
+    border-color: darkblue;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.Login-button:hover {
+    background-color: darkblue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.Login-input {
+    float: right;
+}
+
+.Login-field {
+    text-align: left;
+    margin: 3px;
+}
+
+.Login-invalid {
+    display: block;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 10px;
+    color: black;
+    background-color: red;
+    font-weight: bold;
+    text-decoration: none;
+    border-color: darkred;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px;
+}

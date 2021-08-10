@@ -1,0 +1,46 @@
+.SearchForm {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    border-style: solid;
+    border-color: darkblue;
+    border-radius: 10px;
+    height: fit-content;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightblue;
+}
+
+.SearchForm-input {
+    float: right;
+}
+
+.SearchForm-field {
+    text-align: left;
+    margin: 3px;
+}
+
+.SearchForm-header {
+    margin: 0;
+}
+
+.SearchForm-button {
+    display: inline-block;
+    width: 48%;
+    margin-left: 3px;
+    margin-right: 3px;
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    text-decoration: none;
+    border-color: darkblue;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.SearchForm-button:hover {
+    background-color: darkblue;
+    text-decoration: underline;
+    cursor: pointer;
+}

@@ -1,0 +1,56 @@
+.Profile {
+    height: fit-content;
+    width: fit-content;
+    min-width: 300px;
+    background-color: lightblue;
+    border-color: darkblue;
+    border-style: solid;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Profile-header {
+    margin-top: 0;
+}
+
+.Profile-header-top {
+    margin-bottom: 0;
+}
+
+.Profile-link {
+    display: inline-block;
+    width: 95%;
+    margin: auto;
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    text-decoration: none;
+    border-color: darkblue;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.Profile-link:hover {
+    background-color: darkblue;
+    text-decoration: underline;
+}
+
+.Profile-link-company {
+    font-size: small;
+    float: right;
+    width: fit-content;
+    margin-left: 15px;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.Profile-application {
+    text-align: left;
+}

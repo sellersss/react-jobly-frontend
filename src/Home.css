@@ -1,0 +1,42 @@
+.Home {
+    height: fit-content;
+    width: 400px;
+    background-color: lightblue;
+    border-color: darkblue;
+    border-style: solid;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10%;
+    padding: 5px;
+}
+
+.Home-header {
+    margin-top: 0;
+}
+
+.Home-link {
+    display: inline-block;
+    margin-left: 3px;
+    margin-right: 3px;
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    text-decoration: none;
+    border-color: darkblue;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.Home-link:hover {
+    background-color: darkblue;
+    text-decoration: underline;
+}
+
+.Home-link-loggedIn {
+    width: 27.8%;
+}
+
+.Home-link-loggedOut {
+    width: 44%;
+}

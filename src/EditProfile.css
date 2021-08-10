@@ -1,0 +1,45 @@
+.EditProfile {
+    height: fit-content;
+    width: 300px;
+    background-color: lightblue;
+    border-color: darkblue;
+    border-style: solid;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10%;
+    padding: 5px;
+}
+
+.EditProfile-header {
+    margin-top: 0;
+}
+
+.EditProfile-button {
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    text-decoration: none;
+    border-color: darkblue;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.EditProfile-button:hover {
+    background-color: darkblue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.EditProfile-input {
+    float: right;
+}
+
+.EditProfile-field {
+    text-align: left;
+    margin: 3px;
+}

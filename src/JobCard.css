@@ -1,0 +1,55 @@
+.JobCard {
+    height: fit-content;
+    width: 75%;
+    border-style: solid;
+    border-color: darkblue;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightblue;
+    text-align: left;
+}
+
+.JobCard-header {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.JobCard-button {
+    display: block;
+    width: 100%;
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    text-decoration: none;
+    border-color: darkblue;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.JobCard-button:hover {
+    background-color: darkblue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.JobCard-applied {
+    display: block;
+    width: 95%;
+    margin: auto;
+    color: white;
+    background-color: green;
+    font-weight: bold;
+    text-decoration: none;
+    border-color: darkgreen;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px;
+}

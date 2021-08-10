@@ -1,0 +1,11 @@
+.CompanyList {
+    display: grid;
+    grid-template-columns: 35% auto;
+    width: 75%;
+    margin: auto;
+}
+
+.CompanyList-list {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
